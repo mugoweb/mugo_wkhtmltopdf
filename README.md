@@ -12,7 +12,7 @@ You can test it by accessing http://siteURL/wkhtmltopdf/node/2
 
 Note:
 
-    The extension in the SiteURL site.ini setting to generate the pdf.
+    The extension uses the SiteURL in site.ini setting to generate the pdf, please make sure it is correct pointing to the current host url.
 
 Installing wkhtmltopdf on CentOS
 --------------------------------

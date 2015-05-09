@@ -5,7 +5,37 @@
         <version>1.0</version>
         <copyright>Copyright (C) 2013 &lt;a href="http://www.mugo.ca"&gt;Mugo Web&lt;/a&gt;</copyright>
         <license>GNU General Public License v2.0</license>
-        <software/>
+        <info_url>https://github.com/mugoweb/mugo_wkhtmltopdf</info_url>
+        <software>
+            <uses>
+                <name>phpwkhtmltopdf</name>
+                <license>Licensed under MIT license</license>
+                <copyright>Copyright (c) 2014 Michael Härtl</copyright>
+                <info_url>https://github.com/mikehaertl/phpwkhtmltopdf</info_url>
+                <version>2.0.2-dev</version>
+            </uses>
+            <uses>
+                <name>php-tmpfile</name>
+                <license>Licensed under MIT license</license>
+                <copyright>Copyright (c) 2014 Michael Härtl</copyright>
+                <info_url>https://github.com/mikehaertl/php-tmpfile</info_url>
+                <version>1.0.0</version>
+            </uses>
+            <uses>
+                <name>php-shellcommand</name>
+                <license>Licensed under MIT license</license>
+                <copyright>Copyright (c) 2014 Michael Härtl</copyright>
+                <info_url>https://github.com/mikehaertl/php-shellcommand</info_url>
+                <version>1.0.4</version>
+            </uses>
+            <uses>
+                <name>wkhtmltopdf</name>
+                <license>GNU Lesser General Public License v3.0</license>
+                <copyright>Copyright 2010, 2011 wkhtmltopdf authors</copyright>
+                <info_url>https://github.com/wkhtmltopdf/wkhtmltopdf</info_url>
+                <version>0.12.3-dev</version>
+            </uses>
+        </software>
     </metadata>
 
     <dependencies/>

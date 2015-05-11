@@ -1,0 +1,22 @@
+{
+    "name": "mugo/mugo-wkhtmltopdf",
+    "description": "eZ Publish Legacy extension which integrates the phpwkhtmltopdf library into eZ Publish to provide the basis for a solution for generating PDFs using eZ Publish templates and content stored within eZ Publish",
+    "type": "ezpublish-legacy-extension",
+    "keywords": [ "eZ Publish", "pdf", "wkhtmltopdf", "wkhtmltoimage" ],
+    "homepage": "https://github.com/mugoweb/mugo_wkhtmltopdf",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Mugo",
+            "homepage": "http://mugo.ca"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0.0",
+        "ezsystems/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "mugo_wkhtmltopdf"
+    }
+}

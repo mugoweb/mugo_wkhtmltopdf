@@ -18,7 +18,7 @@ Installing wkhtmltopdf on CentOS
 --------------------------------
 
     yum install fontconfig libXrender libXext xorg-x11-fonts-Type1 xorg-x11-fonts-75dpi freetype libpng zlib libjpeg-turbo openssl
-    wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-centos6-amd64.rpm
+    wget http://download.gna.org/wkhtmltopdf/0.12/0.12.2.1/wkhtmltox-0.12.2.1_linux-centos6-amd64.rpm
     rpm -ivh wkhtmltox-0.12.2.1_linux-centos6-amd64.rpm
     ln -s /usr/local/bin/wkhtmltopdf /usr/bin/
 
